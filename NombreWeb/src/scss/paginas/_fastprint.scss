@@ -1,0 +1,62 @@
+.imagenPortada{
+    position: relative;
+}
+.imagenPortadaImagen{
+    width: 100%;
+    height: auto;
+}
+.imagenPortadaTextos {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: lightgreen;
+}
+.tarjeta{
+    height: auto;
+    width: 100%;
+    display: flex;
+    
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.servicios{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.botonesNavbar{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
+    gap:10px;
+}
+@media (min-width: 768px ) {
+    .botonesNavbar{
+        flex-flow: row wrap;
+        margin-bottom: 1rem;
+    }
+    .servicios{
+        flex-flow: row wrap;
+    }
+    .tarjeta{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+        
+}
+.thumbnail{
+    height: 300px;
+    width: 300px;
+}
+.thumbnail img {
+    height: auto;
+    width: 100%;
+}
+.card-body {
+    min-height: 10vh;
+}

@@ -1,0 +1,48 @@
+Web en HTML5, CSS3 y Javascript, podéis utilizar Bootstrap, AngularJS y Anime.js
+
+Incorporar en una sección a vuestra elección animación avanzada en css con keyframes
+
+Incorporar eventos con jquery.
+
+Secciones:
+Header: Header con menú atractivo, a vuestra elección, podéis posicionar el menú a la
+
+izquierda de forma fija al hacer scroll ó crearlo por defecto en la parte superior, el submenú
+
+funcionará con anclas, no habrá secciones internas en sus enlaces (solo hay index).
+
+Primera sección: Ocupando todo el ancho de pantalla habrá una imagen de fondo con
+opacidad y vuestro nombre en h2 al centro de la imagen con tipo de fuente a vuestra
+elección, debajo del mismo tendremos 2-3 iconos de imágenes para vuestras redes sociales
+y cv que se podrá descargar.
+
+Segunda sección: Vuestro CV detallado dividiendo la sección en 2 divs principales, a la
+izquierda los Datos Académicos y a la derecha la Experiencia Profesional.
+
+Tercera sección: Sección de libre elección pero que case con el estilo de la página y que
+contenga vuestras aptitudes dentro de desarrollo web.
+
+Cuarta sección: Slider animado con imágenes que representen valores de vuestra
+persona.
+
+Quinta sección: Trabajados realizados con imágenes en display block.
+
+Sexta sección: Contacto con botón enviar, cuando se realice el evento enviar debe
+aparecer un alert con los datos introducidos y un reload de la web a los 2 segundos.
+Datos del form: Nombre, Asunto, Mensaje.
+
+Footer: a vuestra elección pero que contenga redes sociales (iconos freepick) y Política de
+cookies.
+
+Importante tener en cuenta que esto es para vosotros, hacerlo tranquilamente, elegir un
+estilo personal, aconsejo la realización de la maquetación en Bootstrap para ayudaros con
+el responsive y sobre esto introducir efectos en css a mayores y eventos en jquery.
+
+Librerías para usar jquery y bootstrap a incorporar en vuestro head:
+&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;link href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css&quot;
+rel=&quot;stylesheet&quot;&gt;
+
+Debe contener una carpeta para el css y otra para javascript: ( /css /js index.html).
+
+maquidev.es =^.^=

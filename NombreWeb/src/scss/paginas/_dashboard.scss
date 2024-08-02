@@ -1,0 +1,8 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.img-thumbnail{
+    height: auto;
+    max-width: 200px;
+    object-fit: cover;
+}
