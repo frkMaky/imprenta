@@ -23,13 +23,13 @@ NombreWeb/includes/.env
 
 DB_HOST=localhost
 DB_USER=root
-DB_PASS=root
+DB_PASS
 DB_NAME=baseDatosNombreWeb
 
-EMAIL_HOST=sandbox.smtp.mailtrap.io
-EMAIL_PORT=2525
-EMAIL_USER=d033ea6fb1d7c8
-EMAIL_PASS=1276046d32d58d
+EMAIL_HOST=
+EMAIL_PORT=
+EMAIL_USER=
+EMAIL_PASS=
 
 HOST=http://localhost:3000
 
